@@ -8,5 +8,5 @@ shipment processing, and supply chain operations.
 - College: City College of Angeles (BSIS)
 - High School: San Juan High School
 ### My Activities
-- Midterm Lab Task 1:[Data Cleaning and Preparation using Excel]
+- Midterm Lab Task 1:[Data Cleaning and Preparation using Excel](https://github.com/MassStarvation01/Anaya_Portfolio/tree/main/Midterm_Task-1#readme)
 - Midterm Lab Task 2:[Data Cleaning and Transformation using POWER QUERY]
