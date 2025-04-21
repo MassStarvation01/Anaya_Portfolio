@@ -1,13 +1,14 @@
 # Midterm Lab Task 2 – Data Cleaning and Transformation Using Power Query Editor
+You are provided with the Uncleaned_DS_jobs.csv dataset (sourced from Kaggle). The objective is to clean and transform this dataset using Power Query Editor in Excel to extract meaningful insights.
 
-## STEP 1 – Data Cleaning
+## Step 1 – Data Cleaning
 Load the Dataset
 
 Import the raw CSV file into Excel using Power Query Editor.
 
 Adjust Layout
 
-Resize column widths and row heights to properly display data.
+Resize column widths and row heights to display data properly.
 
 Remove Extra Spaces
 
@@ -19,40 +20,54 @@ Remove rows containing null or missing values.
 
 Eliminate Duplicates
 
-Remove any duplicate records to ensure data consistency.
+Remove any duplicate rows to ensure data consistency.
 
-## STEP 2 – Data Transformation
+## Step 2 – Data Transformation
 Clean the Salary Estimate Column
 
-In Power Query, select the Salary Estimate column.
+Select the Salary Estimate column.
 
-Use Transform > Extract > Text Before Delimiter to remove content after the opening parenthesis (.
+Use:
+Transform > Extract > Text Before Delimiter
+to remove any content after the opening parenthesis (.
 
-Create Minimum and Maximum Salary Columns
+Create Min Salary and Max Salary Columns
 
-Use Add Column > Column from Examples to extract Min Salary and Max Salary values from the cleaned Salary Estimate column.
+Go to:
+Add Column > Column from Examples
+to extract minimum and maximum salary values from the cleaned Salary Estimate column.
 
-Add Role Type Classification
+Add a Role Type Classification Column
 
-Navigate to Add Column > Custom Column and create a new column to categorize job titles into types such as Data Scientist, Data Analyst, Data Engineer, etc.
+Use:
+Add Column > Custom Column
+to categorize job titles into roles like Data Scientist, Data Analyst, Data Engineer, etc.
 
 Split the Location Column
 
 Select the Location column.
 
-Use Transform > Split Column by Delimiter (comma) to divide it into separate components (e.g., City and State).
+Use:
+Transform > Split Column by Delimiter
+(using a comma ,) to divide it into separate components (e.g., City and State).
 
 Standardize Location Names
 
-Add a Custom Column to update and standardize location values, replacing full state names (e.g., “New Jersey”) with abbreviations (e.g., “NJ”).
+Create a custom column to replace full state names with their abbreviations, such as:
+
+"New Jersey" → "NJ"
+
+"California" → "CA"
 
 Filter Out Invalid Data
 
-Remove entries with negative values in the Competitors and Industry columns.
+Remove rows with negative values in the Competitors and Industry columns.
 
-Clean Company Name Column
+Clean the Company Name Column
 
-Use Transform > Replace Values or Remove Text to eliminate unwanted characters or strings from the Company Name field (e.g., remove ratings or symbols).
+Use:
+Transform > Replace Values or Remove Text
+to eliminate unnecessary characters or strings (e.g., ratings, symbols) from company names.
 
 ## STEP 3 – Screenshots
 
