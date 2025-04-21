@@ -1,57 +1,55 @@
-## Midterm Lab Task 2 -  Data Cleaning and Preparation using POWER QUERY
-* Task Description:
-Company X wants to clean and analyze job posting data from the Uncleaned_DS_Jobs.csv dataset (from Kaggle). The goal is to answer these questions:
+# Midterm Lab Task 2 – Data Cleaning and Transformation Using Power Query Editor
 
-1. Which job roles pay the most and least?
-2. Which company sizes pay the best?
-3. Where do specific job roles or titles pay the best and worst in a particular state?
-   
-# Steps Performed in Data Cleaning and Transformation:
-* <ins>Clean Salary Estimate Column:
-> <sup>Remove all characters after "(" in the Salary Estimate column and Use Transform → Extract → Text Before Delimiter and type "(".
-* <ins>Create Min and Max Salary Columns:
-> <sup>Create two new columns from Salary Estimate for Min Salary and Max Salary and Use Column from Examples → From Selection, then type values like 101 for Min Salary.
-* <ins>Create Role Type Column:
-> <sup>Categorize job titles into types like "Data Scientist", "Data Analyst", etc., using a Custom Column.
->> ***Example:***
-```
-if Text.Contains([Job Title], "Data Scientist") then  
-"Data Scientist" 
-else if Text.Contains([Job Title], "Data Analyst") then  
-"Data Analyst" 
-else if Text.Contains([Job Title], "Data Engineer") then  
-"Data Engineer"
-else if Text.Contains([Job Title], "Machine Learning") then  
-"Machine Learning Engineer" 
-else  
-"other" 
-```
-* <ins>Fix Location Column:
-> <sup>Correct the Location column by replacing city names with state abbreviations (e.g., "California" to ", CA").\
-> Use Custom Column to replace city names, then split the column.
-* <ins>Handle Negative Values:
-> <sup>See competitors column filter all -1’s\
-See revenues column filter 0’s\
-See industry column filter -1’s 
-* <ins>Clean Company Names:
-> <sup>Remove unwanted words like "Rates" from the company name.
-* Remove Unnecessary Columns:
-> <sup>Delete columns like Description that are not needed for analysis.
+## STEP 1 – Data Cleaning
+Load the Dataset
 
-# Screenshot of Dataset Before Cleaning and Transformation
-![Sample Output](IMAGE/BEfore.JPG)
-# Final Output (Screenshot of Final Queries):
-# Normalization
-* _Dependencies and References of the QUERIES_
-![Sample Output](IMAGE/ERD%20Query.JPG)
-# Uncleaned DS Jobs(_Cleaned Data_)
-![Sample Output](IMAGE/Uncleaned.JPG)
+Import the raw CSV file into Excel using Power Query Editor.
 
-# Sal by Role Type dupl
-![Sample Output](IMAGE/Sal%20by%20Role%20Type%20Dupl.JPG)
+Adjust Layout
 
-# Sal by Size ref
-![Sample Output](IMAGE/Sal%20by%20Sze%20Ref.JPG)
+Resize column widths and row heights to properly display data.
 
-# Sal by State ref
-![Sample Output](IMAGE/Sal%20by%20Sze%20Ref.JPG)
+Remove Extra Spaces
+
+Use the Trim function to eliminate leading and trailing spaces from text fields.
+
+Handle Missing Values
+
+Remove rows containing null or missing values.
+
+Eliminate Duplicates
+
+Remove any duplicate records to ensure data consistency.
+
+STEP 2 – Data Transformation
+Clean the Salary Estimate Column
+
+In Power Query, select the Salary Estimate column.
+
+Use Transform > Extract > Text Before Delimiter to remove content after the opening parenthesis (.
+
+Create Minimum and Maximum Salary Columns
+
+Use Add Column > Column from Examples to extract Min Salary and Max Salary values from the cleaned Salary Estimate column.
+
+Add Role Type Classification
+
+Navigate to Add Column > Custom Column and create a new column to categorize job titles into types such as Data Scientist, Data Analyst, Data Engineer, etc.
+
+Split the Location Column
+
+Select the Location column.
+
+Use Transform > Split Column by Delimiter (comma) to divide it into separate components (e.g., City and State).
+
+Standardize Location Names
+
+Add a Custom Column to update and standardize location values, replacing full state names (e.g., “New Jersey”) with abbreviations (e.g., “NJ”).
+
+Filter Out Invalid Data
+
+Remove entries with negative values in the Competitors and Industry columns.
+
+Clean Company Name Column
+
+Use Transform > Replace Values or Remove Text to eliminate unwanted characters or strings from the Company Name field (e.g., remove ratings or symbols).
