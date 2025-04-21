@@ -79,7 +79,7 @@ This task focuses on building an interactive Dashboard using Pivot Tables, Chart
 
 ## Step 7 – Insert the Final Dashboard
 
-![Dashboard Preview](Images/DashBoard.jpg)
+![Dashboard Preview](Images/KaloyPivot.jpg)
 
 ---
 
@@ -89,4 +89,4 @@ This task focuses on building an interactive Dashboard using Pivot Tables, Chart
 
 ---
 
-[**📂 Download the Excel File**](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Midterm%20Task%203/Files/NathanielLimiacPivot.xlsx)
+[**📂 Download the Excel File**](https://github.com/MassStarvation01/Anaya_Portfolio/blob/main/Midterm_Task-3/Files/KaloyPivot.xlsx)
