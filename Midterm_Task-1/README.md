@@ -19,7 +19,7 @@ For this task we are given a Flat data from Excel (See rawfile) and we are Task 
 
 ## STEP 4 - Here's the screenshot of my output after I started data cleaning (See screenshot)
 
-<img src="Images/kaloy.jpg" alt="Alt Text" width="400" height="300"> 
+<img src="Images/Kaloy_cleaned.jpg" alt="Alt Text" width="400" height="300"> 
 
 [*Here's the cleaned file*](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Midterm%20Task%201/Files/NathanielLimiac_I103.xlsx)
 
