@@ -1,73 +1,68 @@
 # Midterm Lab Task 2 – Data Cleaning and Transformation Using Power Query Editor
-You are provided with the Uncleaned_DS_jobs.csv dataset (sourced from Kaggle). The objective is to clean and transform this dataset using Power Query Editor in Excel to extract meaningful insights.
 
-## Step 1 – Data Cleaning
-Load the Dataset
+You are provided with the `Uncleaned_DS_jobs.csv` dataset (sourced from Kaggle). The objective is to clean and transform this dataset using **Power Query Editor in Excel** to extract meaningful insights.
 
-Import the raw CSV file into Excel using Power Query Editor.
+---
 
-Adjust Layout
+## STEP 1 – Data Cleaning
 
-Resize column widths and row heights to display data properly.
+1. **Load the Dataset**
+   - Import the raw CSV file into Excel using Power Query Editor.
 
-Remove Extra Spaces
+2. **Adjust Layout**
+   - Resize column widths and row heights to properly display the data.
 
-Use the Trim function to eliminate leading and trailing spaces from text fields.
+3. **Remove Extra Spaces**
+   - Use the `Trim` function to eliminate leading and trailing spaces from text fields.
 
-Handle Missing Values
+4. **Handle Missing Values**
+   - Remove rows containing `null` or missing values.
 
-Remove rows containing null or missing values.
+5. **Remove Duplicates**
+   - Remove any duplicate rows to ensure data consistency.
 
-Eliminate Duplicates
+---
 
-Remove any duplicate rows to ensure data consistency.
+## STEP 2 – Data Transformation
 
-## Step 2 – Data Transformation
-Clean the Salary Estimate Column
+1. **Clean the `Salary Estimate` Column**
+   - Select the `Salary Estimate` column.
+   - Use:
+     - `Transform > Extract > Text Before Delimiter`
+     - Remove any content after the opening parenthesis `(`.
 
-Select the Salary Estimate column.
+2. **Create `Min Salary` and `Max Salary` Columns**
+   - Go to:
+     - `Add Column > Column from Examples`
+     - Extract minimum and maximum salary values from the cleaned `Salary Estimate` column.
 
-Use:
-Transform > Extract > Text Before Delimiter
-to remove any content after the opening parenthesis (.
+3. **Add a Role Type Classification Column**
+   - Go to:
+     - `Add Column > Custom Column`
+     - Create a column that categorizes job titles into roles like:
+       - Data Scientist
+       - Data Analyst
+       - Data Engineer
+       - Etc.
 
-Create Min Salary and Max Salary Columns
+4. **Split the `Location` Column**
+   - Select the `Location` column.
+   - Use:
+     - `Transform > Split Column by Delimiter`
+     - Choose comma `,` as the delimiter to separate into components (e.g., City and State).
 
-Go to:
-Add Column > Column from Examples
-to extract minimum and maximum salary values from the cleaned Salary Estimate column.
+5. **Standardize Location Names**
+   - Create a custom column to replace full state names with abbreviations:
+     - `New Jersey` → `NJ`
+     - `California` → `CA`
 
-Add a Role Type Classification Column
+6. **Filter Out Invalid Data**
+   - Remove rows with negative values in the `Competitors` and `Industry` columns.
 
-Use:
-Add Column > Custom Column
-to categorize job titles into roles like Data Scientist, Data Analyst, Data Engineer, etc.
-
-Split the Location Column
-
-Select the Location column.
-
-Use:
-Transform > Split Column by Delimiter
-(using a comma ,) to divide it into separate components (e.g., City and State).
-
-Standardize Location Names
-
-Create a custom column to replace full state names with their abbreviations, such as:
-
-"New Jersey" → "NJ"
-
-"California" → "CA"
-
-Filter Out Invalid Data
-
-Remove rows with negative values in the Competitors and Industry columns.
-
-Clean the Company Name Column
-
-Use:
-Transform > Replace Values or Remove Text
-to eliminate unnecessary characters or strings (e.g., ratings, symbols) from company names.
+7. **Clean the `Company Name` Column**
+   - Use:
+     - `Transform > Replace Values` or `Remove Text`
+     - Remove unnecessary characters or strings (e.g., ratings, symbols) from company names.
 
 ## STEP 3 – Screenshots
 
