@@ -1,26 +1,92 @@
-## Midterm Lab Task 3. Creating PIVOT TABLE and DASHBOARD
-* Using the Worksheet on Uncleaned DS Jobs and the transform tables 
-> Sal By Role, Sal By State, Sal by Size 
+# Midterm Lab Task 3 – Creating Pivot Table and Dashboard
 
-# Design your DASHBOARD that would highlight the ff: a. State with the most Number of Data Science 
-> b. Job Role with the Highest Average Salary (Complete the dashboard as shown below)\
-c. Which Company Size pays the Highest(Complete the dashboard as shown below)\
-d. Which Sector Employs the Lowest and Highest Data Science related Jobs\
-e. Which Sector has the Minimum Average Salary and Maximum average Salary
-i. Note, you need to create another query to create a PIVOT Table for d and e 
-# Normalization
-* Do the necessary Pivot Table, and appropriate charts for the necessary reports as shown 
-*  Insert Slicers for Role Type, Size and State 
-*  You may insert MAP if your Excel version has one (See sample map) 
-*  You may apply your own design and colour settings to make your DASHBOARD look more 
-appealing and presentable 
-*  The dashboard below is not yet complete you need to finished it and provide all the necessary 
-VISUALS/Reports stated under number 2. 
-*  The Slicers should make your Dashboard interactive 
+This task focuses on building an interactive Dashboard using Pivot Tables, Charts, and Slicers in Excel. Follow the steps below to create a dynamic and visually informative dashboard.
 
-## Final Output (Screenshot of Final Queries):
-* **Dashboard**
-![Sample Output](Image/lord.PNG)
+---
 
-* **Map**
-  ![Sample Output](Image/Dashboard%20map.PNG)
+## Step 1 – Data Preparation
+
+- **Load Data**: Open the worksheet containing the transformed tables from the `Uncleaned_DS_Jobs` dataset.
+
+---
+
+## Step 2 – Pivot Table Creation
+
+1. **Salary by Role**
+
+   ![Salary by Role Pivot Table](Images/RolePivot.jpg)
+
+2. **Salary by State**
+
+   ![Salary by State Pivot Table](Images/StatePivot.jpg)
+
+3. **Salary by Size**
+
+   ![Salary by Size Pivot Table](Images/SizePivot.jpg)
+
+---
+
+## Step 3 – Design Your Dashboard
+
+### Insert Charts:
+
+- **Salary by Role Chart**  
+  Select the PivotTable for Salary by Role → go to `Insert > Recommended Charts` → choose a Bar Chart or Column Chart.
+
+- **Salary by State Chart**  
+  Select the PivotTable for Salary by State → insert a Bar or Column Chart.
+
+- **Salary by Size Chart**  
+  Use a Pie Chart or Bar Chart based on your Salary by Size PivotTable.
+
+### Insert Map Chart (Optional):
+
+- Select the State and Salary data from your PivotTable → go to `Insert > Maps > Filled Map`.  
+  Ensure state names are recognized by Excel to generate the map.
+
+---
+
+## Step 4 – Insert Slicers for Interactivity
+
+- Select a PivotTable (e.g., Salary by Role) → go to `Insert > Slicer`.
+- Choose filter fields such as:
+  - State
+  - Company Size
+  - Role
+- Repeat slicer insertion for other PivotTables as needed.
+
+---
+
+## Step 5 – Apply Design and Color Customizations
+
+- **Color Customization**:  
+  Go to `Home > Cell Styles` or manually format chart elements.
+
+- **Chart Design**:  
+  Select a chart → go to `Chart Tools > Design` to modify styles.
+
+---
+
+## Step 6 – Make the Dashboard Interactive
+
+- **Connect Slicers**:  
+  Right-click a slicer → select `Report Connections` → check all PivotTables to sync filtering.
+
+- **Test Interactivity**:  
+  Click slicer buttons to confirm that charts update accordingly.
+
+---
+
+## Step 7 – Insert the Final Dashboard
+
+![Dashboard Preview](Images/DashBoard.jpg)
+
+---
+
+## Step 8 – Insert Map
+
+![Map Chart Preview](Images/PivotMap.jpg)
+
+---
+
+[**📂 Download the Excel File**](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Midterm%20Task%203/Files/NathanielLimiacPivot.xlsx)
