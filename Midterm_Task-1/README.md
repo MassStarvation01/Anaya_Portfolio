@@ -1,17 +1,27 @@
-### Midterm Lab Task 1
-For this task, we are given a flat data file from Excel (See raw file), and we need to perform Data Cleaning and Preparation.
-# STEP for Data Cleaning Process
-- **Step One**: Select the column or table, then go to Data → Remove Duplicates to clean duplicates.
-Use Filter to find empty cells and remove or fill missing data appropriately. 
-- **Step Two**: Format all dates, numbers, and text to be consistent. Use TRIM() to remove extra spaces and PROPER() to standardize capitalization.
-- **Step Three**: Use Find & Replace to fix incorrect values.
-Apply Data Validation to prevent incorrect entries.
-Check for outliers using Conditional Formatting.
+# Midterm Lab Task 1 - Data Cleaning and Preparation using Excel
+For this task we are given a Flat data from Excel (See rawfile) and we are Task to perform Data CLeaning and Preparation
+## STEP 1 - Data Cleaning process
+- Load the raw file
+- Fit Column and row width and height
+- TRIM extra spaces
+- Remove NULL values
+- Remove Duplicates
+## STEP 2 - Normalization
+- Performed 1NF
+- Perform Table split using 2NF
+- Perform 3 NF
+- Mapped the Normalized tables as a Physical Data Model
+## STEP 3 - Here's the screenshot of my output before I started data cleaning (See screenshot)
 
-# Sample Output:
-### **Screenshot Before Data Cleaning**
-<img width="959" alt="Anaya 1step" src="https://github.com/user-attachments/assets/025a1f2a-cf37-46b0-8e74-22adbc0879e2" />
+<img src="Images/Raw_Data.jpg" alt="Alt Text" width="400" height="300"> 
 
-### **Screenshot After Data Cleaning**
-<img width="959" alt="image" src="https://github.com/user-attachments/assets/ff07c680-30ed-47f6-a926-e74ad03229e6" />
+[*Here's the raw file*](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Midterm%20Task%201/Files/ways_to_clean_dataRaw.xlsx)
 
+## STEP 4 - Here's the screenshot of my output after I started data cleaning (See screenshot)
+
+<img src="Images/Cleaned_Data.jpg" alt="Alt Text" width="400" height="300"> 
+
+[*Here's the cleaned file*](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Midterm%20Task%201/Files/NathanielLimiac_I103.xlsx)
+
+## Here's the Physical Data Model
+<img src="Images/Data_Model.jpg" alt="Alt Text" width="400" height="300"> 
