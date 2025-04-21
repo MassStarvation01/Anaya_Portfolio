@@ -21,7 +21,7 @@ Eliminate Duplicates
 
 Remove any duplicate records to ensure data consistency.
 
-STEP 2 – Data Transformation
+## STEP 2 – Data Transformation
 Clean the Salary Estimate Column
 
 In Power Query, select the Salary Estimate column.
