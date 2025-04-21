@@ -15,13 +15,13 @@ For this task we are given a Flat data from Excel (See rawfile) and we are Task 
 
 <img src="Images/Raw_Data.jpg" alt="Alt Text" width="400" height="300"> 
 
-[*Here's the raw file*](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Midterm%20Task%201/Files/ways_to_clean_dataRaw.xlsx)
+[*Here's the raw file*](https://github.com/MassStarvation01/Anaya_Portfolio/blob/main/Midterm_Task-1/Files/ways_to_clean_dataRaw.xlsx)
 
 ## STEP 4 - Here's the screenshot of my output after I started data cleaning (See screenshot)
 
 <img src="Images/Kaloy_cleaned.jpg" alt="Alt Text" width="400" height="300"> 
 
-[*Here's the cleaned file*](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Midterm%20Task%201/Files/NathanielLimiac_I103.xlsx)
+[*Here's the cleaned file*](https://github.com/MassStarvation01/Anaya_Portfolio/blob/main/Midterm_Task-1/Files/Kaloy.xlsx)
 
 ## Here's the Physical Data Model
 <img src="Images/Data_Model.jpg" alt="Alt Text" width="400" height="300"> 
