@@ -17,12 +17,12 @@ This table links sponsors to events with the `event_id` and `sponsor_name`.
 
 ## STEP 2 - Here's the screenshot of my output tables:
 
-![Event Tables](Images/TABLES.jpg)
+![Event Tables](Images/Kaloy_tbls.jpg)
 
-[*Here's the raw file*](https://github.com/MassStarvation01/Anaya_Portfolio/blob/main/Finals_Task-1/Images/Kaloy_tbls.jpg)
+[*Here's the raw file*](https://github.com/MassStarvation01/Anaya_Portfolio/blob/main/Finals_Task-1/Files/kaloy_ft1.sql)
 
 ## STEP 3 - Here's the screenshot of my output ERD:
 
-![Event ERD](Images/ERD.jpg)
+![Event ERD](Images/Kaloy_tbls.jpg)
 
-[*Here's the raw file*](https://github.com/MassStarvation01/Anaya_Portfolio/blob/main/Finals_Task-1/Images/ERD_FT1.jpg)
+[*Here's the raw file*](https://github.com/MassStarvation01/Anaya_Portfolio/blob/main/Finals_Task-1/Files/kaloy_erd.mwb)
