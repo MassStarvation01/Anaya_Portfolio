@@ -19,10 +19,10 @@ This table links sponsors to events with the `event_id` and `sponsor_name`.
 
 ![Event Tables](Images/TABLES.jpg)
 
-[*Here's the raw file*](https://github.com/YourGitHubUsername/YourRepositoryPath/blob/main/Finals%20Task%201/Files/kaloy_events.sql)
+[*Here's the raw file*](https://github.com/MassStarvation01/Anaya_Portfolio/blob/main/Finals_Task-1/Images/Kaloy_tbls.jpg)
 
 ## STEP 3 - Here's the screenshot of my output ERD:
 
 ![Event ERD](Images/ERD.jpg)
 
-[*Here's the raw file*](https://github.com/YourGitHubUsername/YourRepositoryPath/blob/main/Finals%20Task%201/Files/kaloy_events.mwb)
+[*Here's the raw file*](https://github.com/MassStarvation01/Anaya_Portfolio/blob/main/Finals_Task-1/Images/ERD_FT1.jpg)
