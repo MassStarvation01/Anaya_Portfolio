@@ -52,11 +52,11 @@ VALUES
 
 ## Task 3 -  ER Diagram or Relational schema from phpMyAdmin or Workbench
 
-<img src="Images/FT2%20ERD.jpg" alt="Alt Text" width="800" height="400"> 
+<img src="Images/ERD_FT2.jpg" alt="Alt Text" width="800" height="400"> 
 
 ## Task 4 - Sql copy of the database and table structures
 
-[Raw Copy of MySQL File](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%202/Files/Naythan.sql)
+[Raw Copy of MySQL File](https://github.com/MassStarvation01/Anaya_Portfolio/blob/main/Finals_Task-2/Files/kaloy_ft2.sql)
 
 CREATE DATABASE schoolwork_db;
 USE schoolwork_db;
