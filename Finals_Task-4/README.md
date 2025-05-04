@@ -6,9 +6,13 @@ SELECT employee_name, salary
 FROM EmployeeSalaries
 ORDER BY salary DESC;
 
+![Alt Text](https://github.com/MassStarvation01/Anaya_Portfolio/blob/main/Finals_Task-4/Images/ft41.jpg)
+
 SELECT department, AVG(salary) AS average_salary
 FROM EmployeeSalaries
 GROUP BY department;
+
+![Alt Text](https://github.com/MassStarvation01/Anaya_Portfolio/blob/main/Finals_Task-4/Images/ft42.jpg)
 
 ## Task 2 - Table Structure ( Problem 1 )
 
@@ -44,16 +48,24 @@ SELECT full_name, salary
 FROM EmployeeData
 ORDER BY salary DESC;
 
+![Alt Text](https://github.com/MassStarvation01/Anaya_Portfolio/blob/main/Finals_Task-4/Images/ft421.jpg)
+
 SELECT AVG(salary) AS average_salary
 FROM EmployeeData
 HAVING average_salary > 70000;
+
+![Alt Text](https://github.com/MassStarvation01/Anaya_Portfolio/blob/main/Finals_Task-4/Images/ft422.jpg)
 
 SELECT full_name
 FROM EmployeeData
 WHERE salary > 100000;
 
+![Alt Text](https://github.com/MassStarvation01/Anaya_Portfolio/blob/main/Finals_Task-4/Images/ft423.jpg)
+
 SELECT COUNT(employee_id) AS number_of_employees
 FROM EmployeeData;
+
+![Alt Text](https://github.com/MassStarvation01/Anaya_Portfolio/blob/main/Finals_Task-4/Images/ft424.jpg)
 
 ## Task 4 - Table Structure ( Problem 2 )
 
