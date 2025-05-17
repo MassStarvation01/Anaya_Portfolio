@@ -24,4 +24,4 @@ shipment processing, and supply chain operations.
 
 - **Final Lab Task 5** – [SQL Views, Stored Procedures & Functions](https://github.com/MassStarvation01/Anaya_Portfolio/blob/main/Finals_Task-5/README.md)
   
-- **Final Lab Task 6** – [MongoDB Practice](https://github.com/MassStarvation01/Anaya_Portfolio/edit/main/Finals_Task-6/README.md)
+- **Final Lab Task 6** – [MongoDB Practice](https://github.com/MassStarvation01/Anaya_Portfolio/blob/main/Finals_Task-6/README.md)
