@@ -115,6 +115,7 @@ Write queries to:
 ![Alt Text](https://github.com/MassStarvation01/Anaya_Portfolio/blob/main/Finals_Task-6/Images/findx1.png)
 
 - Find all movies whose synopsis contains "Gandalf".
+  
 ![Alt Text](https://github.com/MassStarvation01/Anaya_Portfolio/blob/main/Finals_Task-6/Images/findx2.png)
 
 - Find all movies whose synopsis contains "Bilbo" but not "Gandalf".
