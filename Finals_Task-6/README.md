@@ -1,4 +1,4 @@
-# 👨‍💻 Finals Task 6 – MongoDB Practice
+# Finals Task 6 – MongoDB Practice
 
 ### Task 1: Insert Movies
 
