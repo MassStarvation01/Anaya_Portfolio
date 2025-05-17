@@ -134,13 +134,13 @@ Remove the following movies from the collection:
 
 - Pee Wee Herman's Big Adventure
 
-![Alt Text](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%206/Images/delete1.png)
+![Alt Text](https://github.com/MassStarvation01/Anaya_Portfolio/blob/main/Finals_Task-6/Images/delete1.png)
 
 - Avatar
 
-![Alt Text](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%206/Images/del2.png)
+![Alt Text](https://github.com/MassStarvation01/Anaya_Portfolio/blob/main/Finals_Task-6/Images/del2.png)
 
-## 📄 Task 6 – MongoDB Files
+## Task 6 – MongoDB Files
 
-[Download MongoDB File](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%206/Files/mongo_practice.movies.json)
+[Download MongoDB File](https://github.com/MassStarvation01/Anaya_Portfolio/blob/main/Finals_Task-6/Files/mongo_practice.movies.json)
 
